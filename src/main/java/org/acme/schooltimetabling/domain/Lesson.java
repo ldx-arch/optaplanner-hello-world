@@ -35,7 +35,7 @@ public class Lesson {
     @PlanningVariable(valueRangeProviderRefs = "roomRange")
     private Room room;
 
-    // No-arg constructor required for OptaPlanner必须有
+    // No-arg constructor required for OptaPlanner must have
     public Lesson() {
     }
 
