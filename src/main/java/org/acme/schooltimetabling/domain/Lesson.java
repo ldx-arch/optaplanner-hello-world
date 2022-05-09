@@ -19,7 +19,7 @@ package org.acme.schooltimetabling.domain;
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.lookup.PlanningId;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
-
+//规划实体，规划实体是需要问题实体类作为属性，从而分配问题实行
 @PlanningEntity
 public class Lesson {
 
