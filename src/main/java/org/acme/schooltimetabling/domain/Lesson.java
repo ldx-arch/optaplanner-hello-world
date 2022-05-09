@@ -32,6 +32,7 @@ public class Lesson {
     //需要规划的问题实体
     @PlanningVariable(valueRangeProviderRefs = "timeslotRange")
     private Timeslot timeslot;
+    //需要规划的问题实体
     @PlanningVariable(valueRangeProviderRefs = "roomRange")
     private Room room;
 
