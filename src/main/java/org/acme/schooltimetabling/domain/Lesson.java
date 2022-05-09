@@ -29,7 +29,7 @@ public class Lesson {
     private String subject;
     private String teacher;
     private String studentGroup;
-
+    //需要规划的问题实体
     @PlanningVariable(valueRangeProviderRefs = "timeslotRange")
     private Timeslot timeslot;
     @PlanningVariable(valueRangeProviderRefs = "roomRange")
